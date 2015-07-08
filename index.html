@@ -3,17 +3,22 @@
 
   <head>
     <meta charset="utf-8" />
-    <title>Angular Snabbstart</title>
+    <title>CAG Angular Snabbstart</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
   </head>
 
   <body ng-app="app">
-
-    <h1>Angular Snabbstart</h1>
-    <div ng-controller="HelloCtrl as ctrl">
-      <ul>
-        <li ng-repeat="beer in ctrl.beerList">{{beer}}</li>
-      </ul>
+    <nav class="navbar navbar-default">
+        <a class="navbar-brand" href="#"><span><img height="32" src="caglogo.png"></span>&nbsp;&nbsp; <strong>Labs</strong></a>
+    </nav>
+    <div class="container">
+      <h1>Angular Snabbstart med Live Reload</h1>
+      <div ng-controller="HelloCtrl as ctrl">
+        <ul>
+          <li ng-repeat="beer in ctrl.beerList">{{beer}}</li>
+        </ul>
+      </div>
     </div>
 
     <script src="node_modules/jquery/dist/jquery.js"></script>
