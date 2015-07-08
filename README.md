@@ -4,7 +4,7 @@ Sätta upp miljön
 
 2. I den här katalogen kör:
 
-    $ npm install
+    `$ npm install`
 
 3. Starta HTTP server som servar filer från den här katalogen på http://localhost:8080:
 
